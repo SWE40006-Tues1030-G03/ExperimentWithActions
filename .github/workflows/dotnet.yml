@@ -58,4 +58,4 @@ jobs:
         context: .
         file: ExperimentWithActions/Dockerfile
         push: true
-        tags: ghcr.io/${{ github.repository_owner }}/experiment-with-actions:latest
+        tags: ghcr.io/swe40006-tues1030-g03/experiment-with-actions:latest
