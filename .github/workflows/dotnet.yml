@@ -56,6 +56,6 @@ jobs:
       uses: docker/build-push-action@v7
       with:
         context: .
-        file: ExperimentWithActions/Dockerfile
+        file: helloWorld.dockerfile
         push: true
         tags: ghcr.io/swe40006-tues1030-g03/experiment-with-actions:latest
