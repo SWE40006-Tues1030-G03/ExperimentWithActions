@@ -30,4 +30,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: hello-world-build
-        path: bin/Release/net10.0/*
+        path: ExperimentWithActions/bin/Release/net10.0/*
